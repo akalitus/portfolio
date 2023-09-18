@@ -3,7 +3,7 @@ import contactData from "../data/contactData"
 const Contact = () => {
   return (
     <section
-      className="max-w-[1040px] m-auto md:pl-20 p-4 py-16"
+      className="max-w-[1040px] m-auto md:pl-20 p-4 py-8 md:py-16"
       id="contact">
       <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">Contact</h1>
 

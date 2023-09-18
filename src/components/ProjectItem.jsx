@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const ProjectItem = ({ img, title, link }) => {
+const ProjectItem = ({ img, title, stack, link }) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]'>
       <img
@@ -13,7 +13,7 @@ const ProjectItem = ({ img, title, link }) => {
           {title}
 
           <p className='pb-4 pt-2 text-white text-center'>
-            React JS
+            {stack.join(', ')}
           </p>
 
           <a href={link || "#"}>
@@ -30,6 +30,7 @@ const ProjectItem = ({ img, title, link }) => {
 ProjectItem.propTypes = {
   img: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  stack: PropTypes.array.isRequired,
   link: PropTypes.string.isRequired,
 }
 
