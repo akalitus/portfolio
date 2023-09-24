@@ -1,7 +1,7 @@
 import netflix from '../assets/images/projects/netflix.jpg'
-import onlineStore from '../assets/images/projects/online-store.jpg'
-import portfolio from '../assets/images/projects/portfolio.jpg'
-import toDo from '../assets/images/projects/to-do.jpg'
+import fitnessApp from '../assets/images/projects/fitness-app.png'
+import portfolio from '../assets/images/projects/portfolio.png'
+import toDo from '../assets/images/projects/to-do.png'
 
 export const projectsDescroption = `
 Discover a collection of project examples that I have personally developed, demonstrating my expertise in front-end development. These projects showcase visually appealing and functional websites and applications. Take a closer look to gain insights into my coding journey and explore the results of my  work.
@@ -15,10 +15,10 @@ export const projectData = [
     link: '#',
   },
   {
-    img: onlineStore,
-    title: 'Online Store',
-    stack: ['React JS'],
-    link: '#',
+    img: fitnessApp,
+    title: 'Fitness App',
+    stack: ['React JS, Material UI'],
+    link: 'https://fitness-reat-app.netlify.app',
   },
   {
     img: portfolio,
@@ -30,6 +30,6 @@ export const projectData = [
     img: toDo,
     title: 'To-Do App',
     stack: ['React JS'],
-    link: '#',
+    link: 'https://sergey-ladorski-to-do-app.netlify.app',
   },
 ];

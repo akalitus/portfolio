@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section id='home'>
       <img
-        className="w-full h-screen object-cover object-left scale-x-[-1]"
+        className="w-full h-screen object-cover object-left"
         src={mainBg} />
 
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
